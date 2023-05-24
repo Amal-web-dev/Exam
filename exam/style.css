@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-block {
+    display: flex;
+    gap: 30px;
+}
+
+.left-block {
+    text-align: center;
+    width: 500px;
+}
+
+.right-block {
+    text-align: center;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.center-block {
+    text-align: center;
+    width: 500px;
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+}
+
+.left-block h1 {
+    margin-top: 30px;
+}
+
+.left-block p {
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    margin-top: 15px;
+}
+
+.color-1 {
+    background-color: #C7C8CA;
+}
+
+.color-2 {
+    background-color: #B1B2B7;
+}
+
+.color-3 {
+    background-color: #E3CCB4;
+}
+
+.color-2,
+.color-3 {
+    margin-left: 5px;
+}
+
+.buy {
+    background-color: #0094FF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buy a {
+    color: white;
+}
+
+.p-gray {
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.description-gray {
+    font-size: 12px;
+    font-weight: 500;
+    color: #BDBDBD;
+}
+
+.battery-block {
+    margin-top: 20px;
+}
+
+.memory-block {
+    margin-top: 20px;
+}
+
+.touch-id img{
+     height: 50px;
+}
+
+.right-block a  {
+    color: #0094FF;
+    cursor: pointer;
+}
